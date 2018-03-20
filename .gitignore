@@ -1,33 +1,13 @@
-.metadata/
-.recommenders/
-RemoteSystemsTempFiles/
-
-*.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+#.gitignore
+*.bak
+db/
+servers/
+momoda/.settings/
+momoda/WebContent/WEB-INF/forms/common/user_register.jsp
 *.war
 *.ear
 *.bak
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-
-lssm/target/
-lssm/target/
-lssm/.classpath
-*.prefs
-Servers/Tomcat v8.0 Server at localhost-config/catalina.policy
-Servers/Tomcat v8.0 Server at localhost-config/context.xml
-Servers/Tomcat v8.0 Server at localhost-config/tomcat-users.xml
-Servers/Tomcat v8.0 Server at localhost-config/catalina.properties
-Servers/Tomcat v8.0 Server at localhost-config/web.xml
-Servers/Tomcat v8.0 Server at localhost-config/server.xml
-
-lssm/.settings/
-lssm/.classpath
-lssm/.project
-lssm/logs
-*.component
+momoda/src/main/resources/app-menus.xml
+/target/
+*/target/*
+/bin/
